@@ -6,7 +6,7 @@ let userSchema= new mongoose.Schema({
         type: String,
         unique : true,
         lowercase: true,
-        index,
+        
         trim : true
     },
     fullname:{

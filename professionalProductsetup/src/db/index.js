@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import DB_NAME from "../constant.js"
+import {DB_NAME} from "../constant.js"
 
 async function connection() {
 
@@ -17,3 +17,5 @@ console.log('Database is connected TO ${DB_NAME}');
 console.log(err);
 }
 }
+
+export default connection
